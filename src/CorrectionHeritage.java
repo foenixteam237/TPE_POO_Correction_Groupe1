@@ -1,39 +1,7 @@
 import java.util.Scanner;
 
 public class CorrectionHeritage {
-    // Classes de base
-    static class Point {
-        double x, y;
-        public Point(double x, double y) { this.x = x; this.y = y; }
-        public void translate(double dx, double dy) { x += dx; y += dy; }
-        public String toString() { return "(" + x + "," + y + ")"; }
-    }
-
-    static class Rectangle {
-        protected Point p;
-        double width, height;
-        static int nbr;
-        
-        public Rectangle(Point p, double w, double h) {
-            this.p = p;
-            width = w;
-            height = h;
-            nbr++;
-        }
-        
-        public double surface() { return width * height; }
-        public void translate(double dx, double dy) { p.translate(dx, dy); }
-        public boolean contains(Point pt) {
-            return pt.x >= p.x && pt.x <= p.x + width &&
-                   pt.y >= p.y && pt.y <= p.y + height;
-        }
-        
-        public boolean equals(Rectangle other) {
-            return this.p.x == other.p.x && this.p.y == other.p.y &&
-                   this.width == other.width && this.height == other.height;
-        }
-    }
-
+ 
     // Exercice 1-3: SlantedRectangle
     static class SlantedRectangle extends Rectangle {
         double angle;
@@ -82,7 +50,7 @@ public class CorrectionHeritage {
         Scanner sc = new Scanner(System.in);
         int choix;
         do {
-            System.out.println("\n=== CORRECTION HERITAGE ===");
+            System.out.println("\n=== CORRECTION TD  POO: HERITAGE et MASQUAGE ===");
             System.out.println("1. Exercice 1-3 (SlantedRectangle)");
             System.out.println("4. Exercice 4 (Appels méthodes)");
             System.out.println("5. Exercice 5 (Dessin avec Slanted)");
