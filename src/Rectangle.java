@@ -10,13 +10,14 @@ public class Rectangle {
         nbr++;
     }
 
-    
+
     public double surface() {
         return width * height;
     }
 
     public void translate(double dx, double dy) {
         p.translate(dx, dy);
+        
     }
 
     public boolean contains(Point pt) {
