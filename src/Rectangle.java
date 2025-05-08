@@ -10,6 +10,7 @@ public class Rectangle {
         nbr++;
     }
 
+    
     public double surface() {
         return width * height;
     }

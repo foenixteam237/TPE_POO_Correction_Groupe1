@@ -1,3 +1,5 @@
+Toutes les classe se trouvent dans le dossier /src
+---------------------------------------------------
 Correction des exercices necessitants des reponses concretes
 -------------------------------------------------------------------------------------------------------------
 Exercice1: En utilisant l'héritage, définir une classe SlantedRectangle permettant de manipuler de tels
