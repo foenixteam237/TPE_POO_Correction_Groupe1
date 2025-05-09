@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 public class CorrectionHeritage {
 
-    // Exercice 8-10: Partie ASTA-ADJI
+    // Exercice 8-10: Partie ASTA-ADJI 
     static class A {
         void f(A o) {
             System.out.println("f(A) dans A");
