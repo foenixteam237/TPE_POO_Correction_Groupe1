@@ -1,5 +1,5 @@
 
-// Exercice 1-3: SlantedRectangle
+// Exercice 1-3: SlantedRectangle part of Anyeku
 
 class SlantedRectangle extends Rectangle {
     double angle;
