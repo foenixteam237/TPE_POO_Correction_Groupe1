@@ -38,4 +38,5 @@ class SlantedRectangle extends Rectangle {
         SlantedRectangle other = (SlantedRectangle) obj;
         return super.equals(obj) && this.angle == other.angle;
     }
+    
 }
