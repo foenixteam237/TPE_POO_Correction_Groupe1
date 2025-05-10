@@ -24,6 +24,7 @@ class SlantedRectangle extends Rectangle {
     }
     
     //Partie BADAWE FRINE  
+
     // Ceci est une redéfinition de la fonction toString() qui existe dans la
     // bibliothèque de java
     @Override
