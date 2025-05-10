@@ -23,7 +23,7 @@ class SlantedRectangle extends Rectangle {
         return super.contains(pt); // Ne tient pas compte de l'angle réellement
     }
     
-    //Partie BADAWE FRINE 
+    //Partie BADAWE FRINE  
     // Ceci est une redéfinition de la fonction toString() qui existe dans la
     // bibliothèque de java
     @Override
