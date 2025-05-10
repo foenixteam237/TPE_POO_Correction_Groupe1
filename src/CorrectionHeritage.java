@@ -94,7 +94,7 @@ public class CorrectionHeritage {
         } while (choix != 0);
         sc.close();
     }
-
+    //Partie ADIDAI
     static void ex1_3() {
         SlantedRectangle sr = new SlantedRectangle(new Point(0, 0), 5, 3, 45);
         System.out.println("Création SlantedRectangle: " + sr);
