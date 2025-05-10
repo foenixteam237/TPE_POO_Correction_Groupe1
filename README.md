@@ -1,3 +1,16 @@
+#############################################################
+Groupe 1 RTE
+
+1-AANOPELBA DIEBALBE DILANE 24ENSPM0352
+2-ADIDAI DJELE RAPHAEL 24ENSPM0442
+3-ANYEKU RAHIM NJIKE 24ENSPM0458
+4-ASTA-ADJI AISSATOU 22ENSPM0458
+5-BADAWE FRINE ANGE DAYANG 22ENSPM0460
+
+
+
+
+
 Toutes les classe se trouvent dans le dossier /src
 ---------------------------------------------------
 Correction des exercices necessitants des reponses concretes

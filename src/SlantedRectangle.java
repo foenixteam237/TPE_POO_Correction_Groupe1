@@ -1,5 +1,5 @@
 
-// Exercice 1-3: SlantedRectangle part of Anyeku
+// Exercice 1-3: SlantedRectangle part of Anyeku 
 
 class SlantedRectangle extends Rectangle {
     double angle;
@@ -22,7 +22,8 @@ class SlantedRectangle extends Rectangle {
         // Implémentation simplifiée pour l'exemple
         return super.contains(pt); // Ne tient pas compte de l'angle réellement
     }
-
+    
+    //Partie BADAWE FRINE
     // Ceci est une redéfinition de la fonction toString() qui existe dans la
     // bibliothèque de java
     @Override
